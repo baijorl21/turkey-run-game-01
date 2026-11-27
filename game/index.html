@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Turkey Breakout: Dinner Dash</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #2b1608; height: 100%; }
+  body { display: flex; align-items: center; justify-content: center; font-family: Georgia, serif; }
+  #wrap { width: min(100vw, 1280px); }
+  canvas { display: block; width: 100%; height: auto; background: #f7c873; border-radius: 10px; }
+  #hint { color: #f3d9ae; text-align: center; padding: 8px 4px 0; font-size: 15px; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="960" height="540"></canvas>
+  <div id="hint">Space / W / click: jump &nbsp;·&nbsp; S / Down: duck &nbsp;·&nbsp; Shift: sprint &nbsp;·&nbsp; Enter: start / restart</div>
+</div>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
